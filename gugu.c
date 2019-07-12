@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-	for(int i=1;i<10;i++)
+	for(int i=1;i<=5000 ; i++)
 	{
-		printf("%d dan \n",i);
-		for(int j=1;j<=10;i++)
-		{	printf("%d x %d = %d \n",i,j,(i*j));}
+		for(int j=1; j <= 5000 ; j++)
+		{
+			printf("%d x %d = %d \n", i, j, (i*j));
+		}
 		printf("\n");
-		
 	}
 	return 0;
-}
+}	
